@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /* Exercici 2
+       
         View myView = findViewById(R.id.full_layout);
         myView.setOnTouchListener(new View.OnTouchListener() {
             public boolean onTouch(View v, MotionEvent event) {
@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-        */
+        /
 
     }
 
-
+/*
     @Override
     public boolean onTouchEvent(MotionEvent event){
 
@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 return super.onTouchEvent(event);
         }
     }
+    
+    */
 
 
 
